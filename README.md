@@ -9,21 +9,21 @@
 
 ## The Story
 
-A few years ago I downloaded a game from a sketchy website. It worked fine — or so I thought.
+A few years ago I downloaded a game from a sketchy website. It worked fine " or so I thought " .
 
-For an entire month my laptop ran at 80°C with 100% CPU usage constantly. I assumed it was the game. It wasn't.
+For an entire month my laptop ran at 80°C with 100% CPU usage constantly. I assumed it was the game. It wasn't(obv).
 
-When I finally opened my OMEN gaming app I noticed something: the moment I opened Task Manager, CPU usage dropped to 1% instantly. The process was designed to hide the moment it detected monitoring software.
+When I finally opened my OMEN's gaming app I noticed something: the moment I opened Task Manager, CPU usage dropped to 1%-10% instantly(normal usage). The process was designed to hide the moment it detected monitoring software and a few anti-virus softwares too(incl scans from microsoft defender).
 
 I had a cryptominer living in my system for a month and couldn't find it.
 
-So I built SentinelX.
+So I built SentinelX. Because why not.
 
 ---
 
 ## What It Does
 
-SentinelX monitors every running process on your Windows machine in real time and uses a **six-signal composite scoring system** to detect malicious behavior — without relying on virus definitions or signature databases.
+SentinelX monitors every running process on your Windows machine in real time and uses a **six-signal composite scoring system** to detect malicious behavior ( without relying on virus definitions or signature databases.)
 
 It catches:
 - 🔴 **Cryptominers** — sustained CPU abuse from headless unsigned processes
@@ -54,8 +54,7 @@ Signed processes (Chrome, games, Microsoft software) are **completely skipped** 
 
 SentinelX specifically watches for the tactic that got me:
 
-If a process is running at high CPU and **drops significantly the moment Task Manager or Process Hacker opens** — it gets flagged immediately as an evasion attempt.
-
+If a process is running at high CPU and **drops significantly the moment Task Manager or Process Hacker opens** it gets flagged immediately as an evasion attempt.
 ---
 
 ## How It Works
